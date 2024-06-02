@@ -1,0 +1,20 @@
+@media(max-width: 1250px){
+    nav ul li{
+        display: none !important; 
+    }
+    .header-right .bar{
+        display: block !important;
+    }
+}
+
+/* @media(max-width:730px){
+    .header-right .btn a {
+        display: none;
+    }
+} */
+
+@media(max-width:550px){
+    .header-left img {
+        width: 20%;
+    }
+}

@@ -1,0 +1,132 @@
+/* 
+? AUTHOR NAME : ANIK ISLAM RONI
+? TEMPLETE NAME : SCHOOL SITE
+? VERSION: 1.0.0
+*/
+/* ! ROOT VALIABLES */
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --hover-color:  #3572EF;
+    --btn-hover: #0b9011;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* HEADER SECTION START */
+.header-section{
+
+}
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-left img{
+    width: 110px;
+}
+/* .nav-menu{
+    display: flex;
+    align-items: center;
+} */
+ul li{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 18px;
+    padding: 0 25px;
+    font-weight: 500;
+    transition: 0.2s;
+    
+}
+nav ul li a:hover{
+    color: var(--hover-color);
+}
+ 
+ul li ul.submenu li{
+    display: block;
+    text-align: left;
+}
+ul li ul.submenu{
+        position: absolute;
+        min-width: 250px;
+        top: calc(100% + 15px);
+        text-align: left;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        transition: 0.2s;
+        opacity: 0;
+        visibility: hidden;
+        
+    
+    }
+    nav ul li ul li a{
+        padding: 10px 8px;
+        border-bottom: 1px solid #ddd;
+        display: block;
+        text-align: left;
+    }
+    
+    nav ul li:hover ul{
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+.header-right .btn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #3572EF;
+    color: var(--white-color);
+    transition: all 0.2s;
+}
+.header-right .btn a:hover{
+    background-color: var(--btn-hover);
+}
+.header-right{
+    display: flex;
+    align-items: center; 
+}
+.header-right .bar{
+    background-color: #DDDDDD;
+    padding: 5px 12px;
+    font-size: 25px;
+    margin-left: 8px;
+    border-radius: 4px;
+    display: none;
+}
+/* HEADER SECTION END */
+
+
+
+/* SECTION START */
+/* SECTION END */
+
