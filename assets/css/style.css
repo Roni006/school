@@ -11,7 +11,9 @@
     --btn-hover: #0b9011;
 
 }
-
+li{
+    list-style: none;
+}
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -80,7 +82,7 @@ ul li ul.submenu{
         transition: 0.2s;
         opacity: 0;
         visibility: hidden;
-        
+        z-index: 999;
     
     }
     nav ul li ul li a{
@@ -123,6 +125,35 @@ ul li ul.submenu{
     border-radius: 4px;
     display: none;
 }
+.close{
+    background-color: #DDDDDD;
+    padding: 5px 12px;
+    font-size: 30px;
+    margin-left: 8px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 500px;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.807);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transition: 0.2s;
+    /* padding: 70px 0; */
+    display: none;
+    
+    
+}
+
 /* HEADER SECTION END */
 
 

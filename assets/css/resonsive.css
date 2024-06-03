@@ -13,8 +13,16 @@
     }
 } */
 
-@media(max-width:550px){
+/* @media(max-width:550px){
     .header-left img {
         width: 20%;
+    }
+} */
+@media(max-width: 420px){
+    .header-right .btn a{
+        display: none !important;
+    }
+    .header-left img{
+        width: 80px;
     }
 }
